@@ -1,0 +1,11 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    nav .Call{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    .CertifiedInner{
+        flex-direction: column;
+    }
+}

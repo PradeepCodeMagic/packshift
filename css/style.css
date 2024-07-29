@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+}
+
+nav {
+    max-width: calc(1140px - 20px);
+    margin: auto;
+   
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .Call {
+    width: 30%;
+    display: flex;
+    gap: 10px;
+}
+.Call .firstBtn img{
+   display: block;
+}
+.Call .firstBtn p{
+    display: block;
+}
+
+.Call .firstBtn {
+    color: #27AE60;
+    border: 0.5px solid #27AE60;
+    font-weight: 400;
+    Padding:10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.Call .SecBtn{
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    border: none;
+    outline: none;
+    Padding:10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+/*  */
+
+.CertifiedInner{
+    max-width: 1140px;
+    margin: auto;
+  
+    display: flex;
+    align-items: center
+}
+.CertifiedInner .left{
+    flex-basis: 50%;
+    
+}
+.CertifiedInner .box{
+    width: calc(100% - 20px);
+    box-shadow: 0px 4px 20px 2px #002F5814;
+
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.CertifiedInner .box .leftBox{
+   
+    padding: 10px;
+    background: #E9F5FF;
+    
+
+}
+.CertifiedInner .box .rightBox{
+    flex-basis: 70%;
+    padding: 10 0px;
+    
+ 
+  
+
+}
+.CertifiedInner .right{
+    flex-basis: 50%;
+
+    position: relative;
+}
+.CertifiedInner .right img{
+    padding-left: 40px;
+}
+.CertifiedInner .right .innerImg{
+        position: absolute;
+        top: -27px;
+        left: -33px;
+        z-index: -2;
+} 
